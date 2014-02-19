@@ -1,0 +1,68 @@
+###########output with NO Sleep
+I'm thread A:
+fibonacci series:
+ 0
+1
+110*0 = 0
+ is odd
+
+1*1 = 1
+2*2 = 4
+3*329 is even
+4*4 = 16
+3 is odd
+
+5*5 = 25
+3
+6*6 = 36
+7*7 = 49
+8*8 = 64
+9*9 = 81
+5
+4 is even
+8
+53 is odd
+216 is even
+34
+7 is odd
+55
+8 is even
+9 is odd
+10 is even
+
+########################output WITH Sleep
+I'm thread A:
+1 is odd
+2 is even
+3 is odd
+4 is even
+5 is odd
+6 is even
+7 is odd
+8 is even
+9 is odd
+10 is even
+I'm thread B: 
+fibonacci series:
+ 0
+1
+1
+2
+3
+5
+8
+13
+21
+34
+55
+I'm thread C: 
+0*0 = 0
+1*1 = 1
+2*2 = 4
+3*3 = 9
+4*4 = 16
+5*5 = 25
+6*6 = 36
+7*7 = 49
+8*8 = 64
+9*9 = 81
